@@ -5,13 +5,40 @@
  * Version: 1.0
  * 
  */
-
+@media (max-width: 625px){
 .imgtrans {
-	position: absolute;
+	/*position: absolute;
 	width: 600px;
 	height: 135px;
 	top: 0;
 	left: 0;
 	margin-left: 335px;
+	margin-top: 220px;*/
+	width: 90%;
+	height: 240px;
+	position:absolute;
+	top: 0;
+	left: 0;
 	margin-top: 220px;
+	margin-left: 5%;		
+}
+
+}
+@media (min-width: 625px){
+.imgtrans {
+	/*position: absolute;
+	width: 600px;
+	height: 135px;
+	top: 0;
+	left: 0;
+	margin-left: 335px;
+	margin-top: 220px;*/
+	width: 95%;
+	height: 140px;
+	position:absolute;
+	top: 0;
+	left: 0;
+	margin-top: 220px;
+	margin-left: 2.5%;	
+}
 }
