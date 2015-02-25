@@ -1,0 +1,17 @@
+ /* Author: Victor Delaporte
+ * 
+ *
+ * 
+ * Version: 1.0
+ * 
+ */
+
+.imgtrans {
+	position: absolute;
+	width: 600px;
+	height: 135px;
+	top: 0;
+	left: 0;
+	margin-left: 335px;
+	margin-top: 220px;
+}
