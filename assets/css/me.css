@@ -5,6 +5,12 @@
  * Version: 1.0
  * 
  */
+
+.bigTitre {
+	text-align: center;
+}
+
+
 @media (max-width: 625px){
 .imgtrans {
 	width: 99%;
@@ -38,7 +44,6 @@
 
 @media (min-width: 625px){
 #cv {
-	margin-top: -200px;
 	text-align: center;
 	margin: auto;
 }
