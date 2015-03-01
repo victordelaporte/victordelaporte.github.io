@@ -106,9 +106,6 @@ body {
 
 /*  Small devices (tablets, 768px and up)  */
 @media (max-width: 768px ) { 
-    #templatemo_about .pre_next {
-        font-size: 15px;
-    }
     #templatemo_timeline .right_timer {
         background-position: center center;
     }
@@ -117,9 +114,6 @@ body {
 @media (max-width: 970px ) {
     #templatemo_timeline .right_timer {
         background-position: 100px 5px;
-    }
-    #templatemo_banner_menu #logo_text {
-        font: normal normal normal 30px/1em 'Century Gothic', sans-serif;
     }
     #templatemo_timeline .container-fluid {
         background: url("../images/time_line_bg.jpg") repeat-y 28px 0;
