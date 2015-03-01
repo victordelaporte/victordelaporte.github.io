@@ -186,16 +186,7 @@ Main components
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #48acac; /*#2C3E50;*/
-  border-radius: 0.25em;
-  padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
-}
-
-.cd-timeline-content2 {
-  position: relative;
-  margin-left: 60px;
-  background: #2C3E50;
+  background: #005EFF; /*#2C3E50;*/
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
