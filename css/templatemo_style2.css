@@ -6,31 +6,31 @@ http://www.templatemo.com/preview/templatemo_411_dragonfruit
 body {
     font-family: 'Century Gothic', sans-serif;
 }
-.container-fluid {
+.container-fluid2 {
     max-width: 1600px;
 }
-.container_wapper {
+.container_wapper2 {
     width: 100%;
     background: #c0c0c0;
 }
 
 /*timeline*/
-#templatemo_timeline {
+#templatemo_timeline2 {
     background: #f2f2f2;
     float: left;
 }
-#templatemo_timeline .container-fluid {
+#templatemo_timeline2 .container-fluid2 {
     max-width: 1600px;
     position: absolute;
     margin: auto;
     margin-bottom: 80px;
     background: url("../images/time_line_bg.jpg") repeat-y center top;
 }
-#templatemo_timeline .time_line_wap {
+#templatemo_timeline2 .time_line_wap2 {
     position: absolute;
     display: block;
 }
-#templatemo_timeline .time_line_caption {
+#templatemo_timeline2 .time_line_caption2 {
     background: #004554;
     padding: 10px 20px 10px 20px ;
     border-radius: 5px;
@@ -38,7 +38,7 @@ body {
     clear: both;
     color: #fff; 
 }
-#templatemo_timeline .time_line_paragraph {
+#templatemo_timeline2 .time_line_paragraph2 {
     background: #C1C1C1;
     padding: 10px;
     border-radius: 5px;
@@ -46,21 +46,21 @@ body {
     margin-top: 50px;
     font-family: 'Century Gothic', sans-serif;
 }
-#templatemo_timeline .time_line_paragraph a {
+#templatemo_timeline2 .time_line_paragraph2 a {
     color: #000;
     text-decoration: underline;
 }
-#templatemo_timeline .left_timeline {
+#templatemo_timeline2 .left_timeline {
     margin-left: 30px;
 }
-#templatemo_timeline .left_timeline .time_line_caption {
+#templatemo_timeline2 .left_timeline .time_line_caption2 {
     float: right;
     margin-right: 0px;
 }
-#templatemo_timeline .right_timeline .time_line_caption {
+#templatemo_timeline2 .right_timeline .time_line_caption2 {
     float: left;
 }
-#templatemo_timeline .time_line_paragraph h1 {
+#templatemo_timeline2 .time_line_paragraph2 h1 {
     text-align: left;
     margin: 0;
     font-size: 24px;
@@ -68,7 +68,7 @@ body {
     color: #000;
     padding: 20px 20px 20px 20px;
 }
-#templatemo_timeline .time_line_paragraph p {
+#templatemo_timeline2 .time_line_paragraph2 p {
     padding: 0px 20px 20px 20px;
     text-align: left;
     margin: 0;
@@ -76,22 +76,22 @@ body {
     line-height: 2em;
     color: #000;
 }
-#templatemo_timeline .left_timer {
+#templatemo_timeline2 .left_timer {
     float: right;
     background: url("../images/arrow_left.png") 0 5px;
 }
-#templatemo_timeline .right_timer {
+#templatemo_timeline2 .right_timer {
     float: left;
     background: url("../images/arrow_right.png") 0px 5px;
 }
-#templatemo_timeline .left_timer ,
-#templatemo_timeline .right_timer {
+#templatemo_timeline2 .left_timer ,
+#templatemo_timeline2 .right_timer {
     padding-left:30px;
     width: 101px;
     position: absolute;
 }
-#templatemo_timeline .left_timer span,
-#templatemo_timeline .right_timer span {
+#templatemo_timeline2 .left_timer span,
+#templatemo_timeline2 .right_timer span {
     border-radius: 20px;
     width: 30px;
     height: 30px;
@@ -106,17 +106,16 @@ body {
 
 /*  Small devices (tablets, 768px and up)  */
 @media (max-width: 768px ) { 
-    #templatemo_timeline .right_timer {
+    #templatemo_timeline2 .right_timer {
         background-position: center center;
     }
 }
 /*  Medium devices (desktops, 992px and up)  */
 @media (max-width: 970px ) {
-    #templatemo_timeline .right_timer {
+    #templatemo_timeline2 .right_timer {
         background-position: 100px 5px;
     }
-    
-    #templatemo_timeline .container-fluid {
+    #templatemo_timeline2 .container-fluid2 {
         background: url("../images/time_line_bg.jpg") repeat-y 28px 0;
     }
 }

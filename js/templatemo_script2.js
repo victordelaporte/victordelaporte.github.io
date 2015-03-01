@@ -21,15 +21,15 @@ jQuery(function(){
         $.timeline_old_left_position_top = 0 ;
         w_width = ($(window).width()>1600) ? 1600 : $(window).width() ;
         $.timeline_item_width = ( w_width - 50) / 2;
-        $(".time_line_wap").each(function(){
+        $(".time_line_wap2").each(function(){
             //if class name already exit remove
             $(this).children("a.left_timer").remove();
             $(this).children("a.right_timer").remove();
             $(this).removeClass("left_timeline");
             $(this).removeClass("right_timeline");
             if($(window).width()<970){
-                $("#templatemo_timeline .container-fluid").css({"position":"absolute"});
-                positon_left = $("#templatemo_timeline .container-fluid").position().left +100;
+                $("#templatemo_timeline2 .container-fluid2").css({"position":"absolute"});
+                positon_left = $("#templatemo_timeline2 .container-fluid2").position().left +100;
                 //put on right
                 $(this).css({   
                                     'left': 70,
@@ -42,7 +42,7 @@ jQuery(function(){
                 $(this).prepend("<a href=\"#\" class=\"right_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
                 $(this).children("a.right_timer").css({left:-86, width: 60 ,});
             }else if($.timeline_left_position_top == 0){
-                $("#templatemo_timeline .container-fluid").css({"position":"relative"});
+                $("#templatemo_timeline2 .container-fluid2").css({"position":"relative"});
                 //put on left
                 $(this).css({   
                                     'left':0,
@@ -55,7 +55,7 @@ jQuery(function(){
                 $(this).prepend("<a href=\"#\" class=\"left_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
                 $(this).children("a.left_timer").css({left:$.timeline_item_width-50,});
             }else if( $.timeline_right_position_top < $.timeline_left_position_top ){
-                $("#templatemo_timeline .container-fluid").css({"position":"relative"});
+                $("#templatemo_timeline2 .container-fluid2").css({"position":"relative"});
                 $.timeline_right_position_top = ($.timeline_old_left_position_top + 40) < $.timeline_right_position_top  ? $.timeline_right_position_top : $.timeline_right_position_top + 40;
                 //put on right
                 $(this).css({   
@@ -69,7 +69,7 @@ jQuery(function(){
                 $(this).prepend("<a href=\"#\" class=\"right_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
                 $(this).children("a.right_timer").css({left:-99,});
             }else{
-                $("#templatemo_timeline .container-fluid").css({"position":"relative"});
+                $("#templatemo_timeline2 .container-fluid2").css({"position":"relative"});
                 $.timeline_left_position_top = ($.timeline_old_right_position_top + 40) < $.timeline_left_position_top ? $.timeline_left_position_top : $.timeline_left_position_top + 40;
                 //put on left
                 $(this).css({
@@ -85,11 +85,11 @@ jQuery(function(){
             }
             //calculate and define container height
             if($.timeline_left_position_top > $.timeline_right_position_top ){
-                $("#templatemo_timeline .container-fluid").height($.timeline_left_position_top-40);
-                $("#templatemo_timeline").height($.timeline_left_position_top+200);
+                $("#templatemo_timeline2 .container-fluid2").height($.timeline_left_position_top-40);
+                $("#templatemo_timeline2").height($.timeline_left_position_top+200);
             }else{
-                $("#templatemo_timeline .container-fluid").height($.timeline_right_position_top-40);
-                $("#templatemo_timeline").height($.timeline_right_position_top+200);
+                $("#templatemo_timeline2 .container-fluid2").height($.timeline_right_position_top-40);
+                $("#templatemo_timeline2").height($.timeline_right_position_top+200);
             }
             $(this).fadeIn();
         });
