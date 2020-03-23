@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<h1>Annonces de </h1>
+{% for bien in biens_type %}
+    <a href="{{path('bien_show', {'reference': bien.reference})}}">
+        <h2>{{bien.titre}}</h2>
+        <div class="metadata">
+        {{bien.prix}} {{bien.type.label}}
+        </div>
+        <div>
+        {{bien.description}}
+        </div>
+    </a>
+{% endfor %}{% endblock %}

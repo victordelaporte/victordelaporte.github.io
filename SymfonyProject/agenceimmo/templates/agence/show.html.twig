@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <bien>
+        <h2>{{bien.titre}}</h2>
+        <div class="metadata">
+        {{bien.prix}} {{bien.type.label}}
+        </div>
+        <div>
+        {{bien.description}}
+        </div>
+    </bien>
+{% endblock %}

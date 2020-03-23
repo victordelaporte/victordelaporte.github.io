@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+</br>
+<h1>Contact</h1>
+</br></br>
+<div class="row">
+
+<div class="col-2 .col-sm-6" >
+
+
+
+<h4><strong>Agence appéré</strong></h4>
+</br>
+<p>28 rue de Monge</br>
+29200, Brest</p>
+
+
+
+</div>
+
+    <div class="col-sm">
+
+
+
+<div id="map" ></div></div>
+    <div class="col-sm">
+{{ form_start(formContact)}}
+{{form_row(formContact.firsname, {'attr': {'placeholder':"Prénom"}})}}
+{{form_row(formContact.lastname, {'attr': {'placeholder':"Nom"}})}}
+{{form_row(formContact.phone, {'attr': {'placeholder':"Numéro de téléphone"}})}}
+{{form_row(formContact.email, {'attr': {'placeholder':"email"}})}}
+{{form_row(formContact.message, {'attr': {'placeholder':"message"}})}}
+{% for message in app.flashes('success') %}
+            <div class="alert alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+<button type="submit" class="btn btn-primary">Envoyer le message</button>
+{{ form_end(formContact)}}</col-sm>
+</div>
+
+</div>
+
+
+    <script>
+
+      function initMap() {
+        var myLatLng = {lat: 48.38435, lng: -4.491963};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQiUtXg6uBCaJ8pH0aJbn7szhdUBSYMSA&callback=initMap">
+    </script>
+{% endblock %}

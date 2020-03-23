@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{% if editMode %}
+<h1>Edition du bien</h1>
+{% else %}
+<h1>Création du bien </h1>
+{% endif %} 
+
+{{ form_start(formBien)}}
+{{form_row(formBien.titre, {'attr': {'placeholder':"Titre du bien"}})}}
+
+<button type="submit" class="btn btn-primary">
+{% if editMode %}
+<h1>Enregistrer les modifications</h1>
+{% else %}
+<h1>Ajouter le bien</h1>
+{% endif %} 
+</button>
+{{ form_end(formBien)}}
+
+
+
+{% endblock %}
