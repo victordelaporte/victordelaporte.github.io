@@ -95,7 +95,7 @@
         .on('update.countdown finish.countdown', function(event) {
 
             var str = '<div class=\"top\"><div class=\"time days\">' +
-                      '%D <span>day%!D</span>' + 
+                      '%D <span>jour%!D</span>' + 
                       '</div></div>' +
                       '<div class=\"time hours\">' +
                       '%H <span>H</span></div>' +
