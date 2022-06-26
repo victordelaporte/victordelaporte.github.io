@@ -72,7 +72,7 @@ body {
  * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 a {
-  color: rgb(0 255 229 / 60%);
+  color: rgb(253 240 34);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -367,7 +367,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgb(0 255 229 / 60%);
+  background: rgb(253 240 34);
   position: absolute;
   left: -17px;
   top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: rgb(0 255 229 / 60%);
+  color: rgb(253 240 34);
 }
 
 dd {
@@ -501,7 +501,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: rgb(0 255 229 / 60%);
+  background: rgb(253 240 34);
   position: fixed;
   z-index: 900;
   top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-  background-color: rgb(0 255 229 / 60%);
+  background-color: rgb(253 240 34);
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -776,7 +776,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: rgb(0 255 229 / 60%);
+  -webkit-text-fill-color: rgb(253 240 34);
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -835,8 +835,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: rgb(0 255 229 / 60%);
-  border-color: rgb(0 255 229 / 60%);
+  background: rgb(253 240 34);
+  border-color: rgb(253 240 34);
   color: #FFFFFF;
 }
 
@@ -1062,7 +1062,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: rgb(0 255 229 / 60%);
+  color: rgb(253 240 34);
 }
 
 .stats-tabs li a em {
@@ -1120,8 +1120,8 @@ input::-moz-focus-inner {
 }
 
 .s-home--particles {
-  background: #00f3ff;
-  background: radial-gradient(circle, #00f3ff 0%, #2708fb 100%);
+  background: #ffaa3d;
+  background: radial-gradient(circle, #ffe400 0%, #ff0000 100%)
 }
 
 .s-home--particles::before {
@@ -1133,7 +1133,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   opacity: .35;
-  background: #000000;
+  background: #ffaa3d;
 }
 
 .s-home .overlay {
@@ -1277,7 +1277,7 @@ input::-moz-focus-inner {
 .home-content h3::before {
   content: "";
   display: block;
-  background-color: rgb(0 255 229 / 60%);
+  background-color: rgb(253 240 34);
   width: 40px;
   height: 1px;
   position: absolute;
@@ -1352,8 +1352,8 @@ input::-moz-focus-inner {
 
 #mc-form input[type=submit] {
   color: #FFFFFF;
-  background: rgb(0 255 229 / 60%);
-  border-color: rgb(0 255 229 / 60%);
+  background: rgb(253 240 34);
+  border-color: rgb(253 240 34);
   padding: 0 25px;
   margin: 0;
   position: absolute;
@@ -1395,7 +1395,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__counter .time span {
-  color: rgb(0 255 229 / 60%);
+  color: rgb(253 240 34);
   font-size: 2rem;
   position: absolute;
   bottom: 0;
@@ -1414,7 +1414,7 @@ input::-moz-focus-inner {
   display: inline-block;
   font-family: "metropolis-regular", sans-serif;
   letter-spacing: 0;
-  background-color: rgb(0 255 229 / 60%);
+  background-color: rgb(253 240 34);
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1424,7 +1424,7 @@ input::-moz-focus-inner {
   display: block;
   width: 1px;
   height: 12rem;
-  background-color: rgb(0 255 229 / 60%);
+  background-color: rgb(253 240 34);
   position: absolute;
   right: 84px;
   bottom: 0;
@@ -1483,7 +1483,7 @@ input::-moz-focus-inner {
 
 .home-social span {
   font-size: 1.2rem;
-  color: rgb(0 255 229 / 60%);
+  color: rgb(253 240 34);
   right: 6rem;
   opacity: 0;
   visibility: hidden;
@@ -2018,7 +2018,7 @@ html.no-csstransitions .home-content__main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #00eaff7d;
+  background-color: #661d08;
   color: rgba(255, 255, 255, 0.3);
   padding: 21rem 0 9rem;
   overflow-y: auto;
@@ -2057,7 +2057,7 @@ html.no-csstransitions .home-content__main {
   content: "";
   width: 80px;
   height: 1px;
-  background-color: rgb(0 255 229 / 60%);
+  background-color: rgb(253 240 34);
   position: absolute;
   left: 3px;
   top: -3.6rem;
@@ -2067,7 +2067,7 @@ html.no-csstransitions .home-content__main {
   font-family: "metropolis-regular", sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
-  color: rgb(0 255 229 / 60%);
+  color: rgb(253 240 34);
 }
 
 .info-wrapper {
@@ -2159,7 +2159,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .info-toggle {
   z-index: 502;
-  background-color: #171049;
+  background-color: #661D08;
   border: 1px solid rgba(255, 255, 255, 0.12);
   font-family: "metropolis-medium", sans-serif;
   font-size: 12px;
@@ -2205,7 +2205,7 @@ html.no-csstransitions .home-content__main {
   top: 50%;
   right: auto;
   bottom: auto;
-  background-color: rgb(0 255 229 / 60%);
+  background-color: rgb(253 240 34);
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
@@ -2242,7 +2242,7 @@ html.no-csstransitions .home-content__main {
 
 .info-is-visible .info-menu-icon::before,
 .info-is-visible .info-menu-icon::after {
-  background-color: rgb(0 255 229 / 60%);
+  background-color: rgb(253 240 34);
   -webkit-transition-delay: 0s, 0.2s;
   transition-delay: 0s, 0.2s;
 }
