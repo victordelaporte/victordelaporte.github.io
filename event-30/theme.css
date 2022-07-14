@@ -9,6 +9,16 @@ html, body{
     text-align: center;
 }
 
+.maps{
+
+width: 600px;
+height: 450px;
+}
+
+ .form{
+    width: 750px;
+  }
+
 #days {
   font-size: 200px;
   letter-spacing: -.5rem;
@@ -173,6 +183,10 @@ top: -320px;
     width: 400px;
   }
 
+  .form{
+    width: 400px;
+  }
+
 
 .imgold{
     height: 200px;
@@ -204,5 +218,18 @@ margin-left: 10px;
 .imgs {
 }
 
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+.maps{
+    width: 350px;
+}
+
+ .form{
+    width: 350px;
+  }
 }
 
