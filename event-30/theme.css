@@ -1,7 +1,7 @@
 *{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
-    color: #375827;
+    color: #527554;
 }
 html, body{
     margin: 0;
@@ -19,7 +19,7 @@ top: -200px;
 .days2 {
   display: inline-block;
   letter-spacing: 0;
-  background-color: #375827;
+  background-color: #527554;
   color: #FFFFFF;
   padding: 9px 12px;
   position: relative;
@@ -61,7 +61,8 @@ top: -500px;
 }
 
 .header{
-    background-image: url(./img/kaki.jpg);
+    /*background-image: url(./img/sauge.png);*/
+    background-color: #527554;
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
@@ -111,7 +112,7 @@ top: -500px;
 }
 .section{
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 700px;
     padding: 1em 2.4em;
 }
 .sub-heading{
@@ -151,7 +152,7 @@ top: -100px;
 .days2 {
   display: inline-block;
   letter-spacing: 0;
-  background-color: #375827;
+  background-color: #527554;
   color: #FFFFFF;
   padding: 9px 12px;
   position: relative;
@@ -175,20 +176,25 @@ top: -320px;
 
 .imgold{
     height: 200px;
-    position: relative;
-margin: auto;
-
+    position: absolute;
+        margin-top: 20px;
+margin-left: -150px;
 }
 
 .imgrecent{
     height: 200px;
-    position: relative;
-margin: auto;
+    position: absolute;
+    margin-top: 20px;
+margin-left: 10px;
+
 
 }
 
 #cuvee{
-    margin-top: -350px;
+    margin-top: 150px;
+}
+
+#valeur{
 }
 
 #mnqt{
