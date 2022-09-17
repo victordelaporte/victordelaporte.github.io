@@ -1,9 +1,7 @@
 *{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
-    /*color: #527554;*/
-    color: rgb(66, 94, 67);
-
+    color: #527554;
 }
 html, body{
     margin: 0;
@@ -31,9 +29,7 @@ top: -200px;
 .days2 {
   display: inline-block;
   letter-spacing: 0;
-  /*background-color: #527554;*/
-      background-color: rgb(66, 94, 67);
-
+  background-color: #527554;
   color: #FFFFFF;
   padding: 9px 12px;
   position: relative;
@@ -75,9 +71,8 @@ top: -500px;
 }
 
 .header{
-    /*background-image: url(./img/sauge.png);
-    background-color: #527554;*/
-    background-color: rgb(66, 94, 67);
+    /*background-image: url(./img/sauge.png);*/
+    background-color: #527554;
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
@@ -167,8 +162,7 @@ top: -100px;
 .days2 {
   display: inline-block;
   letter-spacing: 0;
-  /*background-color: #527554;*/
-background-color: rgb(66, 94, 67);
+  background-color: #527554;
   color: #FFFFFF;
   padding: 9px 12px;
   position: relative;
