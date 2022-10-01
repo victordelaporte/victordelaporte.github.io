@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
 VERSION:2.0
-METHOD:REQUEST
+METHOD:PUBLISH
 X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VTIMEZONE
 TZID:Romance Standard Time
@@ -19,29 +19,26 @@ TZOFFSETTO:+0200
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-ATTENDEE;CN="30 ans - Victor";RSVP=TRUE:invalid:nomail
 CLASS:PUBLIC
-CREATED:20220917T175515Z
+CREATED:20221001T114606Z
 DESCRIPTION: \n
 DTEND;TZID="Romance Standard Time":20230527T235900
-DTSTAMP:20220917T175515Z
-DTSTART;TZID="Romance Standard Time":20230527T170000
-LAST-MODIFIED:20220917T175515Z
-ORGANIZER;CN="Delaporte, Victor":mailto:Victor.Delaporte.Contractor@brittan
-	y-ferries.fr
+DTSTAMP:20221001T114606Z
+DTSTART;TZID="Romance Standard Time":20230527T163000
+LAST-MODIFIED:20221001T114606Z
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=fr:
+SUMMARY;LANGUAGE=fr:30 ans - Victor
 TRANSP:OPAQUE
-UID:040000008200E00074C5B7101A82E00800000000600D4FD9CECAD801000000000000000
-	010000000880C75B795FD0E438CDB4A1DFFFBBB12
+UID:040000008200E00074C5B7101A82E00800000000307201FC9BD5D801000000000000000
+	01000000014AB912DB4EE6949A371B92931880B50
 X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
 	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
 	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
 	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=ProgId c
 	ontent=Word.Document><meta name=Generator content="Microsoft Word 15"><met
 	a name=Originator content="Microsoft Word 15"><link rel=File-List href="ci
-	d:filelist.xml@01D8CACF.4781CE80"><!--[if gte mso 9]><xml>\n<o:OfficeDocum
+	d:filelist.xml@01D8D59C.27BDE340"><!--[if gte mso 9]><xml>\n<o:OfficeDocum
 	entSettings>\n<o:AllowPNG/>\n</o:OfficeDocumentSettings>\n</xml><![endif]-
 	-><!--[if gte mso 9]><xml>\n<w:WordDocument>\n<w:TrackMoves/>\n<w:TrackFor
 	matting/>\n<w:HyphenationZone>21</w:HyphenationZone>\n<w:EnvelopeVis/>\n<w
